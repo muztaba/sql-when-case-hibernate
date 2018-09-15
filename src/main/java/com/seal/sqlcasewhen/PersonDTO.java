@@ -1,11 +1,9 @@
 package com.seal.sqlcasewhen;
 
 
-import lombok.AllArgsConstructor;
-import lombok.Data;
+import lombok.Value;
 
-@Data
-@AllArgsConstructor
+@Value
 public class PersonDTO {
     String name;
     String xxx;
